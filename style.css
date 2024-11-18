@@ -1,24 +1,33 @@
-body{
-    background-color: rgb(0, 0, 0) 
-    color; darkred
+body {
+    color: rgb(0, 83, 0);
+    background: black;
+    margin: 0px;
 
-
-
-
-.chamada-texto{
-    margin-right: 100px;  
 }
 
-
-img{
-    height: 200px;
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(17, 100, 0);
 }
 
-
-.categoria-vídeos{
-display: flex;
-overflow-x:auto;
-gap: 20px;
+section {
+    background: rgb(255, 255, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
 }
